@@ -13,7 +13,7 @@ const Lesson2 = () => {
   const [email, setEmail] = useState('')
   // state dang string
   // state dang number
-  const [count, setCount] = useState(60) // count là state, setCount là function để thay đổi state
+  const [count, setCount] = useState(-1) // count là state, setCount là function để thay đổi state
 
   // state dang obj (obj, arrray, ...)
   const [products, setProducts] = useState([]) // ban dau la 1 array rong
@@ -125,7 +125,7 @@ export default Lesson2
 
 // cú pháp const [stateName, functionNametoChangeState] = useState(initialState)
 // stateName : tên của state ( tên trạng thái)
-// functionNametoChangeState : tên của hàm để thay đổi trạng thái : setStateName
+// functionNametoChangeState : tên của hàm để thay đổi trạng thái : setStateName - cach đặt tên cho function
 // initialState : giá trị ban đầu của state (có thể là string, number, obj, array, boolean, null, ...)
 
 
