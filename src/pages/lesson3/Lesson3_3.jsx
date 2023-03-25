@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import { AiFillEyeInvisible, AiFillEye } from 'react-icons/ai'
 
+// react-query + zustand (redux) , buoi 4 se ontap lai tu b1,b3,b3 va lam checkpoint
+
 const Lesson3_3 = () => {
   const [securityText, setSecurityText] = useState(true)
   const [canContinue, setCanContinue] = useState(false)
@@ -13,6 +15,8 @@ const Lesson3_3 = () => {
   const REX_PASSWORD = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$/
 
   // dieu kien check email k chua @ va password k du 6 ky tu, password chua ki tu dac biet
+
+  // effect rat kho nen can tim hieu ki va thuc hanh nhieu cho quen
 
   useEffect(() => {
     if (

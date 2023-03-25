@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import Home from './pages/home/Home'
+import Layout from './pages/layout/Layout'
 import Lesson1 from './pages/lesson1/Lesson1'
 import Lesson2 from './pages/lesson2/Lesson2'
 import Lesson3 from './pages/lesson3/Lesson3'
@@ -11,7 +13,8 @@ function App() {
   return (
     <div className='flex flex-1 bg-[#EEEEEE] h-screen w-screen'>
         {/* <Lesson1 /> */}
-        <Lesson3_3 />
+        {/* <Lesson3_3 /> */}
+       <Layout ></Layout>
     </div>
   )
 }
