@@ -8,13 +8,11 @@ import Lesson3_2 from './pages/lesson3/Lesson3_2'
 import Lesson3_3 from './pages/lesson3/Lesson3_3'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className='flex flex-1 bg-[#EEEEEE] h-screen w-screen'>
         {/* <Lesson1 /> */}
         {/* <Lesson3_3 /> */}
-       <Layout ></Layout>
+       <Layout />
     </div>
   )
 }
